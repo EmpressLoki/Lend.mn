@@ -88,15 +88,16 @@ header .list a {
     color: white;
 }
 .long {
-    width: 75%;
+    width: 60%;
     margin: auto;
     padding-top: 40px;
     padding-bottom:  40px;
 }
 .team {
-    width: 1110px;
+    width: 100%;
     height: 555px;
     object-fit: cover;
+    margin: auto;
 }
 .p {
     padding: 15px;
@@ -104,4 +105,25 @@ header .list a {
     color: var(--fontcolor);
     font-family: var(--font-family);
     font-size: 14px;
+}
+.circles {
+    width: 50%;
+   
+    
+    
+}
+.imgs {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    gap: 10rem;
+    margin-left: 100px;
+    
+}
+.txt {
+display: flex;
+width: 90%;
+justify-content: space-evenly;
+gap: 5rem;
+
 }
